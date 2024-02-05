@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Default from './App';
+// import { Transfer } from './Transfer';
 
 import Preloader from './Preloader/Preloader';
 
 
-const LazyLoadedComp = React.lazy(()=> import('./App'));
+const LazyLoadedComp = React.lazy(()=> import('./Transfer'));
 
-const root = ReactDOM.createRoot(document.getElementById('secd_root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>

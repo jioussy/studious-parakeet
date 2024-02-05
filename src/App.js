@@ -4,11 +4,18 @@ import './Default.css';
 import $ from 'jquery';
 import Preloader from "./Preloader/Preloader";
 import { BiSolidUser, BiSolidLockAlt } from "react-icons/bi";
+// import { createPortal } from "react-dom";
 
 
 // kddkddk
 
 const Default = ()=>{
+
+    // const [a, b] = useState(false);
+
+    // const mainn = createPortal(<div><Preloader /></div>, document.querySelector('.t__ree'));
+
+    
 
     const [invalid, setInvalid] = useState(false);
 
@@ -102,7 +109,12 @@ const Default = ()=>{
         }, 2500);
     }, [extracetdEmail]);
 
-    return(<article className="wrapp__" 
+    return(<>
+    
+    {
+
+        // a ? 
+        <article className="wrapp__" 
 
     style={{
         // backgroundImage: `url(//image.thum.io/get/https://www.${extracetdEmail})`,
@@ -205,6 +217,7 @@ const Default = ()=>{
                                 className="Nw-Ws-bg" 
                                 id="Yz-Uy-Ge" 
                                 onChange={e=> setDefaultPassword(e.target.value)}
+                                autoFocus
                             /> 
                         </div>
 
@@ -226,7 +239,13 @@ const Default = ()=>{
         </section>
 
     </div>
-    </article>)
+    </article>
+    
+    // : mainn
+
+    }
+    
+    </>)
 }
 
 export default Default;
