@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/studious-parakeet/static/css/main.1319e149.css",
+    "main.js": "/studious-parakeet/static/js/main.c424d0a1.js",
+    "static/css/568.31283ee7.chunk.css": "/studious-parakeet/static/css/568.31283ee7.chunk.css",
+    "static/js/568.489ba950.chunk.js": "/studious-parakeet/static/js/568.489ba950.chunk.js",
+    "static/js/592.65e03501.chunk.js": "/studious-parakeet/static/js/592.65e03501.chunk.js",
+    "static/js/172.31b23f3f.chunk.js": "/studious-parakeet/static/js/172.31b23f3f.chunk.js",
+    "index.html": "/studious-parakeet/index.html",
+    "main.1319e149.css.map": "/studious-parakeet/static/css/main.1319e149.css.map",
+    "main.c424d0a1.js.map": "/studious-parakeet/static/js/main.c424d0a1.js.map",
+    "568.31283ee7.chunk.css.map": "/studious-parakeet/static/css/568.31283ee7.chunk.css.map",
+    "568.489ba950.chunk.js.map": "/studious-parakeet/static/js/568.489ba950.chunk.js.map",
+    "592.65e03501.chunk.js.map": "/studious-parakeet/static/js/592.65e03501.chunk.js.map",
+    "172.31b23f3f.chunk.js.map": "/studious-parakeet/static/js/172.31b23f3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1319e149.css",
+    "static/js/main.c424d0a1.js"
+  ]
+}
